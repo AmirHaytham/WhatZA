@@ -15,6 +15,7 @@ A clone of the WhatsApp Web login page, created using React and styled to closel
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [File Structure](#file-structure)
+- [Backlog](#backlog)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -86,6 +87,21 @@ whatsapp-web-clone/
 ├── package.json
 └── README.md
 ```
+## Backlog
+
+The following are potential future improvements and features for this project:
+
+- [ ] **Enhanced QR Code Functionality**: Integrate a real WhatsApp QR code for actual login functionality.
+- [ ] **Chat Interface After Login**: Create a chat interface that appears after logging in with the QR code, allowing users to view and send messages.
+- [ ] **Multilingual Support**: Add language options to support a wider audience.
+- [ ] **Dark Mode**: Implement a dark mode toggle to improve accessibility and user preference.
+- [ ] **Unit and Integration Testing**: Add tests using Jest and React Testing Library to ensure reliability and maintainability.
+- [ ] **Animations**: Add subtle animations for QR code generation and button interactions to enhance UX.
+- [ ] **Accessibility Improvements**: Improve keyboard navigation and ARIA attributes to make the app more accessible.
+- [ ] **Error Handling**: Add error handling for invalid QR codes or loading failures.
+- [ ] **Deployment**: Deploy the app on GitHub Pages, Vercel, or Netlify for easier access and sharing.
+
+Feel free to suggest additional features or improvements by opening an issue or contributing directly!
 
 ## Contributing
 
