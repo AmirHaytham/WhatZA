@@ -1,0 +1,157 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for WhatsAppLoginPage */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f5f1e8; /* Updated to match the new background color */
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f1e8;
+  color: #4a4a4a;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  width: 100%;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f1e8;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #25d366;
+  font-weight: 600;
+}
+
+.logo-img {
+  width: 38px;
+  height: 38px;
+  margin-right: 8px;
+}
+
+.download-button {
+  background-color: #25d366;
+  border: 1px solid #000000;
+  padding: 8px 20px;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.download-button:hover {
+  background-color: #1ebe57;
+}
+
+.download-icon {
+  font-size: 12px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+  max-width: 800px; /* Increased width for closer alignment */
+  padding: 40px 0;
+}
+
+.login-instructions-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.login-instructions {
+  text-align: left;
+  max-width: 55%; /* Adjusted width */
+}
+
+.login-instructions h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.login-instructions p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #3b3b3b;
+}
+
+.login-instructions ol {
+  font-size: 16px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.qr-code-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #e5ddd5;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #8c8c8c;
+  background-color: #f5f1e8;
+}
+
+.menu-icon,
+.settings-icon {
+  font-weight: bold;
+}
+
+.help-link,
+.phone-login-link {
+  color: #25d366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.help-link:hover,
+.phone-login-link:hover {
+  text-decoration: underline;
+}
+
+.lock-icon {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #8c8c8c;
+}
