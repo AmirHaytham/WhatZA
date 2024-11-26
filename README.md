@@ -1,10 +1,10 @@
-# WhatsApp Clone
+# WhatZA
 
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-A clone of the WhatsApp Web login page and Chat feature, created using React and styled to closely resemble the original design. This project showcases web development practices, UI/UX design, and the use of modern front-end libraries to match a real-world app interface.
+WhatZA is a clone of the WhatsApp Web login page and Chat feature, created using React and styled to closely resemble the original design. This project showcases web development practices, UI/UX design, and the use of modern front-end libraries to match a real-world app interface.
 
 ## Table of Contents
 
