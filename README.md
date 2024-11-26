@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-A clone of the WhatsApp Web login page, created using React and styled to closely resemble the original design. This project showcases web development practices, UI/UX design, and the use of modern front-end libraries to match a real-world app interface.
+A clone of the WhatsApp Web login page and Chat feature, created using React and styled to closely resemble the original design. This project showcases web development practices, UI/UX design, and the use of modern front-end libraries to match a real-world app interface.
 
 ## Table of Contents
 
@@ -91,14 +91,14 @@ whatsapp-web-clone/
 
 The following are potential future improvements and features for this project:
 
-- [ ] **Enhanced QR Code Functionality**: Integrate a real WhatsApp QR code for actual login functionality.
-- [ ] **Chat Interface After Login**: Create a chat interface that appears after logging in with the QR code, allowing users to view and send messages.
+- [x] **Enhanced QR Code Functionality**: Integrate a real WhatsApp QR code for actual login functionality.
+- [x] **Chat Interface After Login**: Create a chat interface that appears after logging in with the QR code, allowing users to view and send messages.
 - [ ] **Multilingual Support**: Add language options to support a wider audience.
 - [ ] **Dark Mode**: Implement a dark mode toggle to improve accessibility and user preference.
 - [ ] **Unit and Integration Testing**: Add tests using Jest and React Testing Library to ensure reliability and maintainability.
-- [ ] **Animations**: Add subtle animations for QR code generation and button interactions to enhance UX.
+- [x] **Animations**: Add subtle animations for QR code generation and button interactions to enhance UX.
 - [ ] **Accessibility Improvements**: Improve keyboard navigation and ARIA attributes to make the app more accessible.
-- [ ] **Error Handling**: Add error handling for invalid QR codes or loading failures.
+- [x] **Error Handling**: Add error handling for invalid QR codes or loading failures.
 - [ ] **Deployment**: Deploy the app on GitHub Pages, Vercel, or Netlify for easier access and sharing.
 
 Feel free to suggest additional features or improvements by opening an issue or contributing directly!
