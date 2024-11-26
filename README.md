@@ -1,4 +1,4 @@
-# WhatsApp Login Page Clone
+# WhatsApp Clone
 
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
